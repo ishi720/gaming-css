@@ -1,6 +1,6 @@
 /*文字色*/
 .gaming-color {
-  animation: gaming-color 2s linear infinite,gaming-border-color 2s linear infinite;
+  animation: gaming-color 2s linear infinite;
 }
 @keyframes gaming-color {
   0% { color: Magenta; }
@@ -11,8 +11,7 @@
 
 /*背景色*/
 .gaming-background-color {
-  animation: gaming-background-color 2s linear infinite,
-   gaming-border-color 2s linear infinite;
+  animation: gaming-background-color 2s linear infinite
 }
 @keyframes gaming-background-color {
   0% { background-color: Magenta; }

@@ -1,0 +1,11 @@
+{
+  "name": "gaming-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gaming.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ishi720",
+  "license": "MIT"
+}

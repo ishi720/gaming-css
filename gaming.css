@@ -1,0 +1,33 @@
+/*文字色*/
+.gaming-color {
+  animation: gaming-color 2s linear infinite,gaming-border-color 2s linear infinite;
+}
+@keyframes gaming-color {
+  0% { color: Magenta; }
+  33% { color: yellow; }
+  66% { color: Cyan; }
+  100% { color: Magenta; }
+}
+
+/*背景色*/
+.gaming-background-color {
+  animation: gaming-background-color 2s linear infinite,
+   gaming-border-color 2s linear infinite;
+}
+@keyframes gaming-background-color {
+  0% { background-color: Magenta; }
+  33% { background-color: yellow; }
+  66% { background-color: Cyan; }
+  100% { background-color: Magenta; }
+}
+
+/*線の色*/
+.gaming-border-color {
+  animation: gaming-border-color 2s linear infinite;
+}
+@keyframes gaming-border-color {
+  0% { border-color: Magenta; }
+  33% { border-color: yellow; }
+  66% { border-color: Cyan; }
+  100% { border-color: Magenta; }
+}

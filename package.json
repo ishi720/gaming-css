@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "gaming.css",
+  "files": [
+    "README.md",
+    "package.json",
+    "gaming.css"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

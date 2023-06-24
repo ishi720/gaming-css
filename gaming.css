@@ -1,6 +1,6 @@
 /*文字色*/
 .gaming-color {
-  animation: gaming-color 2s linear infinite;
+  animation: gaming-color 5s linear infinite;
 }
 @keyframes gaming-color {
   0% { color: Magenta; }
@@ -11,7 +11,7 @@
 
 /*背景色*/
 .gaming-background-color {
-  animation: gaming-background-color 2s linear infinite
+  animation: gaming-background-color 5s linear infinite
 }
 @keyframes gaming-background-color {
   0% { background-color: Magenta; }
@@ -22,11 +22,51 @@
 
 /*線の色*/
 .gaming-border-color {
-  animation: gaming-border-color 2s linear infinite;
+  animation: gaming-border-color 5s linear infinite;
 }
 @keyframes gaming-border-color {
   0% { border-color: Magenta; }
   33% { border-color: yellow; }
   66% { border-color: Cyan; }
   100% { border-color: Magenta; }
+}
+
+.gaming-border-top-color {
+  animation: gaming-border-top-color 5s linear infinite;
+}
+@keyframes gaming-border-top-color {
+  0% { border-top-color: Magenta; }
+  33% { border-top-color: yellow; }
+  66% { border-top-color: Cyan; }
+  100% { border-top-color: Magenta; }
+}
+
+.gaming-border-right-color {
+  animation: gaming-border-right-color 5s linear infinite;
+}
+@keyframes gaming-border-right-color {
+  0% { border-right-color: Magenta; }
+  33% { border-right-color: yellow; }
+  66% { border-right-color: Cyan; }
+  100% { border-right-color: Magenta; }
+}
+
+.gaming-border-bottom-color {
+  animation: gaming-border-bottom-color 5s linear infinite;
+}
+@keyframes gaming-border-bottom-color {
+  0% { border-bottom-color: Magenta; }
+  33% { border-bottom-color: yellow; }
+  66% { border-bottom-color: Cyan; }
+  100% { border-bottom-color: Magenta; }
+}
+
+.gaming-border-left-color {
+  animation: gaming-border-left-color 5s linear infinite;
+}
+@keyframes gaming-border-left-color {
+  0% { border-left-color: Magenta; }
+  33% { border-left-color: yellow; }
+  66% { border-left-color: Cyan; }
+  100% { border-left-color: Magenta; }
 }

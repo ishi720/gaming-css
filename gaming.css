@@ -71,6 +71,63 @@
   100% { border-left-color: Magenta; }
 }
 
+.gaming-outline-color {
+  animation: gaming-outline-color 5s linear infinite;
+}
+@keyframes gaming-outline-color {
+  0% { outline-color: Magenta; }
+  33% { outline-color: yellow; }
+  66% { outline-color: Cyan; }
+  100% { outline-color: Magenta; }
+}
+
+.gaming-text-decoration-color {
+  animation: gaming-text-decoration-color 5s linear infinite;
+}
+@keyframes gaming-text-decoration-color {
+  0% { text-decoration-color: Magenta; }
+  33% { text-decoration-color: yellow; }
+  66% { text-decoration-color: Cyan; }
+  100% { text-decoration-color: Magenta; }
+}
+
+.gaming-border-inline-start-color {
+  animation: gaming-border-inline-start-color 5s linear infinite;
+}
+@keyframes gaming-border-inline-start-color {
+  0% { border-inline-start-color: Magenta; }
+  33% { border-inline-start-color: yellow; }
+  66% { border-inline-start-color: Cyan; }
+  100% { border-inline-start-color: Magenta; }
+}
+.gaming-border-inline-end-color {
+  animation: gaming-border-inline-end-color 5s linear infinite;
+}
+@keyframes gaming-border-inline-end-color {
+  0% { border-inline-end-color: Magenta; }
+  33% { border-inline-end-color: yellow; }
+  66% { border-inline-end-color: Cyan; }
+  100% { border-inline-end-color: Magenta; }
+}
+.gaming-border-block-start-color {
+  animation: gaming-border-block-start-color 5s linear infinite;
+}
+@keyframes gaming-border-block-start-color {
+  0% { border-block-start-color: Magenta; }
+  33% { border-block-start-color: yellow; }
+  66% { border-block-start-color: Cyan; }
+  100% { border-block-start-color: Magenta; }
+}
+.gaming-border-block-end-color {
+  animation: gaming-border-block-end-color 5s linear infinite;
+}
+@keyframes gaming-block-end-color {
+  0% { border-block-end-color: Magenta; }
+  33% { border-block-end-color: yellow; }
+  66% { border-block-end-color: Cyan; }
+  100% { border-block-end-color: Magenta; }
+}
+
 /*画像の色*/
 .gaming-filter {
   animation: gaming-filter 5s linear infinite;
@@ -81,3 +138,5 @@
   66% { filter: hue-rotate(240deg); }
   100% { filter: hue-rotate(360deg); }
 }
+
+

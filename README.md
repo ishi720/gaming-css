@@ -36,6 +36,13 @@ htmlの`class属性`やcssの`animation-name`としてパラメータに指定�
 | border-right-color | gaming-border-right-color |
 | border-bottom-color | gaming-border-bottom-color |
 | border-left-color | gaming-border-left-color |
+| outline-color | gaming-outline-color |
+| text-decoration-color | gaming-text-decoration-color |
+| border-inline-start-color | gaming-border-inline-start-color |
+| border-inline-end-color | gaming-border-inline-end-color |
+| border-block-start-color | gaming-border-block-start-color |
+| border-block-end-color | gaming-border-block-end-color |
+| filter | gaming-filter |
 
 ### htmlの`class属性`に指定する
 

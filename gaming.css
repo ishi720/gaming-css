@@ -70,3 +70,14 @@
   66% { border-left-color: Cyan; }
   100% { border-left-color: Magenta; }
 }
+
+/*画像の色*/
+.gaming-filter {
+  animation: gaming-filter 5s linear infinite;
+}
+@keyframes gaming-filter {
+  0% { filter: hue-rotate(0deg); }
+  33% { filter: hue-rotate(120deg); }
+  66% { filter: hue-rotate(240deg); }
+  100% { filter: hue-rotate(360deg); }
+}

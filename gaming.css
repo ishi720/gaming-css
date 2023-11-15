@@ -139,4 +139,13 @@
   100% { filter: hue-rotate(360deg); }
 }
 
+.gaming-fill {
+  animation: gaming-fill 5s linear infinite;
+}
+@keyframes gaming-fill {
+  0% { fill: Magenta;  }
+  33% { fill: yellow;  }
+  66% { fill: Cyan; }
+  100% { fill: Magenta;  }
+}
 

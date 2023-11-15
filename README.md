@@ -43,6 +43,7 @@ htmlの`class属性`やcssの`animation-name`としてパラメータに指定�
 | border-block-start-color | gaming-border-block-start-color |
 | border-block-end-color | gaming-border-block-end-color |
 | filter | gaming-filter |
+| fill | gaming-fill |
 
 ### htmlの`class属性`に指定する
 

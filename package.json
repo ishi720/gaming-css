@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "ゲーミングなスタイリングするCSSです",
   "main": "gaming.css",
+  "style": "gaming.css",
   "files": [
     "gaming.css"
   ],
@@ -11,6 +12,14 @@
   },
   "author": "ishi720",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishi720/gaming-css.git"
+  },
+  "homepage": "https://github.com/ishi720/gaming-css#readme",
+  "bugs": {
+    "url": "https://github.com/ishi720/gaming-css/issues"
+  },
   "keywords": [
     "css",
     "gaming"

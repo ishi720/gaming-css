@@ -48,7 +48,7 @@ htmlの`class属性`やcssの`animation-name`としてパラメータに指定�
 ### htmlの`class属性`に指定する
 
 ```html
-<div class="gaming-background-color">背景色<div>
+<div class="gaming-background-color">背景色</div>
 ```
 
 ### 複数のアニメーションするようにカスタマイズする

@@ -11,7 +11,7 @@
 
 /*背景色*/
 .gaming-background-color {
-  animation: gaming-background-color 5s linear infinite
+  animation: gaming-background-color 5s linear infinite;
 }
 @keyframes gaming-background-color {
   0% { background-color: Magenta; }

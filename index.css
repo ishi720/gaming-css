@@ -59,13 +59,13 @@ pre {
 
 /* 複数のアニメーション */
 .multi {
-    animation: gaming-color 5s linear infinite,
-               gaming-border-color 5s linear infinite;
+    animation: gaming-color var(--gaming-duration, 5s) linear infinite,
+               gaming-border-color var(--gaming-duration, 5s) linear infinite;
 }
 
 /* hover */
 .hover:hover {
-    animation: gaming-background-color 5s linear infinite;
+    animation: gaming-background-color var(--gaming-duration, 5s) linear infinite;
 }
 
 /* CSS変数でカスタマイズ */

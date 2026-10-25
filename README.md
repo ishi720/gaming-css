@@ -47,7 +47,7 @@ CDN（インストール不要）
 
 # Usage
 
-htmlの`class属性`やcssの`animation-name`としてパラメータに指定できます。
+htmlの`class属性`に指定するか、cssの`animation`プロパティにアニメーション名として指定できます。
 
 パラメータ名は、以下の既存プロパティ名に対応しています。
 
@@ -79,8 +79,8 @@ htmlの`class属性`やcssの`animation-name`としてパラメータに指定�
 
 ```css
 div {
-	animation: gaming-color 5s linear infinite,
-	           gaming-border-color 5s linear infinite;
+    animation: gaming-color var(--gaming-duration, 5s) linear infinite,
+               gaming-border-color var(--gaming-duration, 5s) linear infinite;
 }
 ```
 
@@ -88,7 +88,7 @@ div {
 
 ```css
 a:hover {
-    animation: gaming-background-color 5s linear infinite;
+    animation: gaming-background-color var(--gaming-duration, 5s) linear infinite;
 }
 ```
 

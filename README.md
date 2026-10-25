@@ -21,6 +21,30 @@ yarn
 yarn add gaming-css
 ```
 
+# Import
+
+JavaScript（webpack や Vite など）
+
+```js
+import 'gaming-css/gaming.css';
+```
+
+CSS
+
+```css
+@import 'gaming-css/gaming.css';
+```
+
+CDN（インストール不要）
+
+```html
+<!-- jsDelivr -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gaming-css@1/gaming.css">
+
+<!-- unpkg -->
+<link rel="stylesheet" href="https://unpkg.com/gaming-css@1/gaming.css">
+```
+
 # Usage
 
 htmlの`class属性`やcssの`animation-name`としてパラメータに指定できます。

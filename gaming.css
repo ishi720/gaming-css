@@ -121,7 +121,7 @@
 .gaming-border-block-end-color {
   animation: gaming-border-block-end-color 5s linear infinite;
 }
-@keyframes gaming-block-end-color {
+@keyframes gaming-border-block-end-color {
   0% { border-block-end-color: Magenta; }
   33% { border-block-end-color: yellow; }
   66% { border-block-end-color: Cyan; }

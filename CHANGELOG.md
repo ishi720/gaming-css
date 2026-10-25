@@ -6,6 +6,8 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-25
+
 ### Added
 
 - CSS変数で速度と色を変更できるようにしました。
@@ -61,7 +63,8 @@
   - `gaming-border-bottom-color`
   - `gaming-border-left-color`
 
-[Unreleased]: https://github.com/ishi720/gaming-css/compare/1.0.2...HEAD
+[Unreleased]: https://github.com/ishi720/gaming-css/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/ishi720/gaming-css/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/ishi720/gaming-css/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/ishi720/gaming-css/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/ishi720/gaming-css/releases/tag/1.0.0

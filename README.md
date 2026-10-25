@@ -111,3 +111,8 @@ CSS変数で上書きできます。`gaming-filter`は速度のみ変更でき�
     --gaming-color-3: blue;
 }
 ```
+
+### 動きを減らす設定について
+
+OSで「動きを減らす」設定（`prefers-reduced-motion: reduce`）をしている環境では、アニメーションしません。
+クラス指定だけでなく、`animation: gaming-color …` のように自分で指定した場合も同様です。

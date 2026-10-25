@@ -91,3 +91,23 @@ a:hover {
     animation: gaming-background-color 5s linear infinite;
 }
 ```
+
+### 速度や色を変更したい場合
+
+CSS変数で上書きできます。`gaming-filter`は速度のみ変更できます。
+
+| CSS変数 | 内容 | 初期値 |
+| - | - | - |
+| --gaming-duration | 1周の時間 | 5s |
+| --gaming-color-1 | 1色目 | Magenta |
+| --gaming-color-2 | 2色目 | yellow |
+| --gaming-color-3 | 3色目 | Cyan |
+
+```css
+.gaming-color {
+    --gaming-duration: 2s;
+    --gaming-color-1: red;
+    --gaming-color-2: lime;
+    --gaming-color-3: blue;
+}
+```

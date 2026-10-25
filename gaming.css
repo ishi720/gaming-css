@@ -1,136 +1,136 @@
 /*文字色*/
 .gaming-color {
-  animation: gaming-color 5s linear infinite;
+  animation: gaming-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-color {
-  0% { color: Magenta; }
-  33% { color: yellow; }
-  66% { color: Cyan; }
-  100% { color: Magenta; }
+  0% { color: var(--gaming-color-1, Magenta); }
+  33% { color: var(--gaming-color-2, yellow); }
+  66% { color: var(--gaming-color-3, Cyan); }
+  100% { color: var(--gaming-color-1, Magenta); }
 }
 
 /*背景色*/
 .gaming-background-color {
-  animation: gaming-background-color 5s linear infinite;
+  animation: gaming-background-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-background-color {
-  0% { background-color: Magenta; }
-  33% { background-color: yellow; }
-  66% { background-color: Cyan; }
-  100% { background-color: Magenta; }
+  0% { background-color: var(--gaming-color-1, Magenta); }
+  33% { background-color: var(--gaming-color-2, yellow); }
+  66% { background-color: var(--gaming-color-3, Cyan); }
+  100% { background-color: var(--gaming-color-1, Magenta); }
 }
 
 /*線の色*/
 .gaming-border-color {
-  animation: gaming-border-color 5s linear infinite;
+  animation: gaming-border-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-color {
-  0% { border-color: Magenta; }
-  33% { border-color: yellow; }
-  66% { border-color: Cyan; }
-  100% { border-color: Magenta; }
+  0% { border-color: var(--gaming-color-1, Magenta); }
+  33% { border-color: var(--gaming-color-2, yellow); }
+  66% { border-color: var(--gaming-color-3, Cyan); }
+  100% { border-color: var(--gaming-color-1, Magenta); }
 }
 
 .gaming-border-top-color {
-  animation: gaming-border-top-color 5s linear infinite;
+  animation: gaming-border-top-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-top-color {
-  0% { border-top-color: Magenta; }
-  33% { border-top-color: yellow; }
-  66% { border-top-color: Cyan; }
-  100% { border-top-color: Magenta; }
+  0% { border-top-color: var(--gaming-color-1, Magenta); }
+  33% { border-top-color: var(--gaming-color-2, yellow); }
+  66% { border-top-color: var(--gaming-color-3, Cyan); }
+  100% { border-top-color: var(--gaming-color-1, Magenta); }
 }
 
 .gaming-border-right-color {
-  animation: gaming-border-right-color 5s linear infinite;
+  animation: gaming-border-right-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-right-color {
-  0% { border-right-color: Magenta; }
-  33% { border-right-color: yellow; }
-  66% { border-right-color: Cyan; }
-  100% { border-right-color: Magenta; }
+  0% { border-right-color: var(--gaming-color-1, Magenta); }
+  33% { border-right-color: var(--gaming-color-2, yellow); }
+  66% { border-right-color: var(--gaming-color-3, Cyan); }
+  100% { border-right-color: var(--gaming-color-1, Magenta); }
 }
 
 .gaming-border-bottom-color {
-  animation: gaming-border-bottom-color 5s linear infinite;
+  animation: gaming-border-bottom-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-bottom-color {
-  0% { border-bottom-color: Magenta; }
-  33% { border-bottom-color: yellow; }
-  66% { border-bottom-color: Cyan; }
-  100% { border-bottom-color: Magenta; }
+  0% { border-bottom-color: var(--gaming-color-1, Magenta); }
+  33% { border-bottom-color: var(--gaming-color-2, yellow); }
+  66% { border-bottom-color: var(--gaming-color-3, Cyan); }
+  100% { border-bottom-color: var(--gaming-color-1, Magenta); }
 }
 
 .gaming-border-left-color {
-  animation: gaming-border-left-color 5s linear infinite;
+  animation: gaming-border-left-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-left-color {
-  0% { border-left-color: Magenta; }
-  33% { border-left-color: yellow; }
-  66% { border-left-color: Cyan; }
-  100% { border-left-color: Magenta; }
+  0% { border-left-color: var(--gaming-color-1, Magenta); }
+  33% { border-left-color: var(--gaming-color-2, yellow); }
+  66% { border-left-color: var(--gaming-color-3, Cyan); }
+  100% { border-left-color: var(--gaming-color-1, Magenta); }
 }
 
 .gaming-outline-color {
-  animation: gaming-outline-color 5s linear infinite;
+  animation: gaming-outline-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-outline-color {
-  0% { outline-color: Magenta; }
-  33% { outline-color: yellow; }
-  66% { outline-color: Cyan; }
-  100% { outline-color: Magenta; }
+  0% { outline-color: var(--gaming-color-1, Magenta); }
+  33% { outline-color: var(--gaming-color-2, yellow); }
+  66% { outline-color: var(--gaming-color-3, Cyan); }
+  100% { outline-color: var(--gaming-color-1, Magenta); }
 }
 
 .gaming-text-decoration-color {
-  animation: gaming-text-decoration-color 5s linear infinite;
+  animation: gaming-text-decoration-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-text-decoration-color {
-  0% { text-decoration-color: Magenta; }
-  33% { text-decoration-color: yellow; }
-  66% { text-decoration-color: Cyan; }
-  100% { text-decoration-color: Magenta; }
+  0% { text-decoration-color: var(--gaming-color-1, Magenta); }
+  33% { text-decoration-color: var(--gaming-color-2, yellow); }
+  66% { text-decoration-color: var(--gaming-color-3, Cyan); }
+  100% { text-decoration-color: var(--gaming-color-1, Magenta); }
 }
 
 .gaming-border-inline-start-color {
-  animation: gaming-border-inline-start-color 5s linear infinite;
+  animation: gaming-border-inline-start-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-inline-start-color {
-  0% { border-inline-start-color: Magenta; }
-  33% { border-inline-start-color: yellow; }
-  66% { border-inline-start-color: Cyan; }
-  100% { border-inline-start-color: Magenta; }
+  0% { border-inline-start-color: var(--gaming-color-1, Magenta); }
+  33% { border-inline-start-color: var(--gaming-color-2, yellow); }
+  66% { border-inline-start-color: var(--gaming-color-3, Cyan); }
+  100% { border-inline-start-color: var(--gaming-color-1, Magenta); }
 }
 .gaming-border-inline-end-color {
-  animation: gaming-border-inline-end-color 5s linear infinite;
+  animation: gaming-border-inline-end-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-inline-end-color {
-  0% { border-inline-end-color: Magenta; }
-  33% { border-inline-end-color: yellow; }
-  66% { border-inline-end-color: Cyan; }
-  100% { border-inline-end-color: Magenta; }
+  0% { border-inline-end-color: var(--gaming-color-1, Magenta); }
+  33% { border-inline-end-color: var(--gaming-color-2, yellow); }
+  66% { border-inline-end-color: var(--gaming-color-3, Cyan); }
+  100% { border-inline-end-color: var(--gaming-color-1, Magenta); }
 }
 .gaming-border-block-start-color {
-  animation: gaming-border-block-start-color 5s linear infinite;
+  animation: gaming-border-block-start-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-block-start-color {
-  0% { border-block-start-color: Magenta; }
-  33% { border-block-start-color: yellow; }
-  66% { border-block-start-color: Cyan; }
-  100% { border-block-start-color: Magenta; }
+  0% { border-block-start-color: var(--gaming-color-1, Magenta); }
+  33% { border-block-start-color: var(--gaming-color-2, yellow); }
+  66% { border-block-start-color: var(--gaming-color-3, Cyan); }
+  100% { border-block-start-color: var(--gaming-color-1, Magenta); }
 }
 .gaming-border-block-end-color {
-  animation: gaming-border-block-end-color 5s linear infinite;
+  animation: gaming-border-block-end-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-block-end-color {
-  0% { border-block-end-color: Magenta; }
-  33% { border-block-end-color: yellow; }
-  66% { border-block-end-color: Cyan; }
-  100% { border-block-end-color: Magenta; }
+  0% { border-block-end-color: var(--gaming-color-1, Magenta); }
+  33% { border-block-end-color: var(--gaming-color-2, yellow); }
+  66% { border-block-end-color: var(--gaming-color-3, Cyan); }
+  100% { border-block-end-color: var(--gaming-color-1, Magenta); }
 }
 
 /*画像の色*/
 .gaming-filter {
-  animation: gaming-filter 5s linear infinite;
+  animation: gaming-filter var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-filter {
   0% { filter: hue-rotate(0deg); }
@@ -140,12 +140,12 @@
 }
 
 .gaming-fill {
-  animation: gaming-fill 5s linear infinite;
+  animation: gaming-fill var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-fill {
-  0% { fill: Magenta;  }
-  33% { fill: yellow;  }
-  66% { fill: Cyan; }
-  100% { fill: Magenta;  }
+  0% { fill: var(--gaming-color-1, Magenta);  }
+  33% { fill: var(--gaming-color-2, yellow);  }
+  66% { fill: var(--gaming-color-3, Cyan); }
+  100% { fill: var(--gaming-color-1, Magenta);  }
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "gaming-css",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "ゲーミングなスタイリングするCSSです",
   "main": "gaming.css",
   "style": "gaming.css",

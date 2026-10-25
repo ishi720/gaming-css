@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gaming-css サンプル</title>
+    <link rel="stylesheet" href="gaming.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 16px;
+            background: #111;
+            color: #eee;
+            font-family: sans-serif;
+        }
+        main {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            margin-top: 48px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 8px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .item code {
+            font-size: 0.8rem;
+            color: #aaa;
+            word-break: break-all;
+        }
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            background: #222;
+            font-weight: bold;
+        }
+        .border {
+            border: 6px solid #555;
+        }
+        .outline {
+            outline: 6px solid #555;
+            outline-offset: -6px;
+        }
+        .underline {
+            text-decoration: underline 4px #555;
+            font-size: 1.5rem;
+        }
+        pre {
+            background: #222;
+            padding: 16px;
+            overflow-x: auto;
+        }
+
+        /* 複数のアニメーション */
+        .multi {
+            animation: gaming-color 5s linear infinite,
+                       gaming-border-color 5s linear infinite;
+        }
+
+        /* hover */
+        .hover:hover {
+            animation: gaming-background-color 5s linear infinite;
+        }
+
+        /* CSS変数でカスタマイズ */
+        .custom {
+            --gaming-duration: 2s;
+            --gaming-color-1: red;
+            --gaming-color-2: lime;
+            --gaming-color-3: blue;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1 class="gaming-color">gaming-css</h1>
+        <p>ゲーミングなスタイリングするCSSです</p>
+
+        <h2>文字・背景</h2>
+        <div class="grid">
+            <div class="item">
+                <div class="box gaming-color">文字色</div>
+                <code>gaming-color</code>
+            </div>
+            <div class="item">
+                <div class="box gaming-background-color" style="color: #111;">背景色</div>
+                <code>gaming-background-color</code>
+            </div>
+            <div class="item">
+                <div class="box"><span class="underline gaming-text-decoration-color">下線</span></div>
+                <code>gaming-text-decoration-color</code>
+            </div>
+        </div>
+
+        <h2>線</h2>
+        <div class="grid">
+            <div class="item">
+                <div class="box border gaming-border-color">border</div>
+                <code>gaming-border-color</code>
+            </div>
+            <div class="item">
+                <div class="box border gaming-border-top-color">top</div>
+                <code>gaming-border-top-color</code>
+            </div>
+            <div class="item">
+                <div class="box border gaming-border-right-color">right</div>
+                <code>gaming-border-right-color</code>
+            </div>
+            <div class="item">
+                <div class="box border gaming-border-bottom-color">bottom</div>
+                <code>gaming-border-bottom-color</code>
+            </div>
+            <div class="item">
+                <div class="box border gaming-border-left-color">left</div>
+                <code>gaming-border-left-color</code>
+            </div>
+            <div class="item">
+                <div class="box border gaming-border-inline-start-color">inline-start</div>
+                <code>gaming-border-inline-start-color</code>
+            </div>
+            <div class="item">
+                <div class="box border gaming-border-inline-end-color">inline-end</div>
+                <code>gaming-border-inline-end-color</code>
+            </div>
+            <div class="item">
+                <div class="box border gaming-border-block-start-color">block-start</div>
+                <code>gaming-border-block-start-color</code>
+            </div>
+            <div class="item">
+                <div class="box border gaming-border-block-end-color">block-end</div>
+                <code>gaming-border-block-end-color</code>
+            </div>
+            <div class="item">
+                <div class="box outline gaming-outline-color">outline</div>
+                <code>gaming-outline-color</code>
+            </div>
+        </div>
+
+        <h2>画像・SVG</h2>
+        <div class="grid">
+            <div class="item">
+                <svg class="box gaming-filter" viewBox="0 0 100 100" aria-label="filter のサンプル">
+                    <circle cx="35" cy="40" r="25" fill="#f33" />
+                    <circle cx="65" cy="40" r="25" fill="#3c3" opacity="0.8" />
+                    <circle cx="50" cy="65" r="25" fill="#36f" opacity="0.8" />
+                </svg>
+                <code>gaming-filter</code>
+            </div>
+            <div class="item">
+                <svg class="box" viewBox="0 0 100 100" aria-label="fill のサンプル">
+                    <polygon class="gaming-fill" points="50,10 61,38 92,38 67,57 76,88 50,70 24,88 33,57 8,38 39,38" />
+                </svg>
+                <code>gaming-fill</code>
+            </div>
+        </div>
+
+        <h2>応用</h2>
+        <div class="grid">
+            <div class="item">
+                <div class="box border multi">複数</div>
+                <code>animation: gaming-color …, gaming-border-color …</code>
+            </div>
+            <div class="item">
+                <div class="box hover">hoverしてください</div>
+                <code>a:hover { animation: gaming-background-color … }</code>
+            </div>
+            <div class="item">
+                <div class="box border gaming-border-color custom">カスタム</div>
+                <code>--gaming-duration: 2s; --gaming-color-1: red; …</code>
+            </div>
+        </div>
+
+        <h2>使い方</h2>
+<pre><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gaming-css@1/gaming.css"&gt;
+
+&lt;div class="gaming-background-color"&gt;背景色&lt;/div&gt;</code></pre>
+    </main>
+</body>
+</html>

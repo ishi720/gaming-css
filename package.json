@@ -4,8 +4,6 @@
   "description": "ゲーミングなスタイリングするCSSです",
   "main": "gaming.css",
   "files": [
-    "README.md",
-    "package.json",
     "gaming.css"
   ],
   "scripts": {

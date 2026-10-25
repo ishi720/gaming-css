@@ -99,9 +99,9 @@ CSS変数で上書きできます。`gaming-filter`は速度のみ変更でき�
 | CSS変数 | 内容 | 初期値 |
 | - | - | - |
 | --gaming-duration | 1周の時間 | 5s |
-| --gaming-color-1 | 1色目 | Magenta |
+| --gaming-color-1 | 1色目 | magenta |
 | --gaming-color-2 | 2色目 | yellow |
-| --gaming-color-3 | 3色目 | Cyan |
+| --gaming-color-3 | 3色目 | cyan |
 
 ```css
 .gaming-color {

@@ -1,137 +1,147 @@
-/*文字色*/
+/* 文字色 */
 .gaming-color {
   animation: gaming-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-color {
-  0% { color: var(--gaming-color-1, Magenta); }
+  0% { color: var(--gaming-color-1, magenta); }
   33% { color: var(--gaming-color-2, yellow); }
-  66% { color: var(--gaming-color-3, Cyan); }
-  100% { color: var(--gaming-color-1, Magenta); }
+  66% { color: var(--gaming-color-3, cyan); }
+  100% { color: var(--gaming-color-1, magenta); }
 }
 
-/*背景色*/
+/* 背景色 */
 .gaming-background-color {
   animation: gaming-background-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-background-color {
-  0% { background-color: var(--gaming-color-1, Magenta); }
+  0% { background-color: var(--gaming-color-1, magenta); }
   33% { background-color: var(--gaming-color-2, yellow); }
-  66% { background-color: var(--gaming-color-3, Cyan); }
-  100% { background-color: var(--gaming-color-1, Magenta); }
+  66% { background-color: var(--gaming-color-3, cyan); }
+  100% { background-color: var(--gaming-color-1, magenta); }
 }
 
-/*線の色*/
+/* 線の色（四辺） */
 .gaming-border-color {
   animation: gaming-border-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-color {
-  0% { border-color: var(--gaming-color-1, Magenta); }
+  0% { border-color: var(--gaming-color-1, magenta); }
   33% { border-color: var(--gaming-color-2, yellow); }
-  66% { border-color: var(--gaming-color-3, Cyan); }
-  100% { border-color: var(--gaming-color-1, Magenta); }
+  66% { border-color: var(--gaming-color-3, cyan); }
+  100% { border-color: var(--gaming-color-1, magenta); }
 }
 
+/* 線の色（上） */
 .gaming-border-top-color {
   animation: gaming-border-top-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-top-color {
-  0% { border-top-color: var(--gaming-color-1, Magenta); }
+  0% { border-top-color: var(--gaming-color-1, magenta); }
   33% { border-top-color: var(--gaming-color-2, yellow); }
-  66% { border-top-color: var(--gaming-color-3, Cyan); }
-  100% { border-top-color: var(--gaming-color-1, Magenta); }
+  66% { border-top-color: var(--gaming-color-3, cyan); }
+  100% { border-top-color: var(--gaming-color-1, magenta); }
 }
 
+/* 線の色（右） */
 .gaming-border-right-color {
   animation: gaming-border-right-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-right-color {
-  0% { border-right-color: var(--gaming-color-1, Magenta); }
+  0% { border-right-color: var(--gaming-color-1, magenta); }
   33% { border-right-color: var(--gaming-color-2, yellow); }
-  66% { border-right-color: var(--gaming-color-3, Cyan); }
-  100% { border-right-color: var(--gaming-color-1, Magenta); }
+  66% { border-right-color: var(--gaming-color-3, cyan); }
+  100% { border-right-color: var(--gaming-color-1, magenta); }
 }
 
+/* 線の色（下） */
 .gaming-border-bottom-color {
   animation: gaming-border-bottom-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-bottom-color {
-  0% { border-bottom-color: var(--gaming-color-1, Magenta); }
+  0% { border-bottom-color: var(--gaming-color-1, magenta); }
   33% { border-bottom-color: var(--gaming-color-2, yellow); }
-  66% { border-bottom-color: var(--gaming-color-3, Cyan); }
-  100% { border-bottom-color: var(--gaming-color-1, Magenta); }
+  66% { border-bottom-color: var(--gaming-color-3, cyan); }
+  100% { border-bottom-color: var(--gaming-color-1, magenta); }
 }
 
+/* 線の色（左） */
 .gaming-border-left-color {
   animation: gaming-border-left-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-left-color {
-  0% { border-left-color: var(--gaming-color-1, Magenta); }
+  0% { border-left-color: var(--gaming-color-1, magenta); }
   33% { border-left-color: var(--gaming-color-2, yellow); }
-  66% { border-left-color: var(--gaming-color-3, Cyan); }
-  100% { border-left-color: var(--gaming-color-1, Magenta); }
+  66% { border-left-color: var(--gaming-color-3, cyan); }
+  100% { border-left-color: var(--gaming-color-1, magenta); }
 }
 
+/* アウトラインの色 */
 .gaming-outline-color {
   animation: gaming-outline-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-outline-color {
-  0% { outline-color: var(--gaming-color-1, Magenta); }
+  0% { outline-color: var(--gaming-color-1, magenta); }
   33% { outline-color: var(--gaming-color-2, yellow); }
-  66% { outline-color: var(--gaming-color-3, Cyan); }
-  100% { outline-color: var(--gaming-color-1, Magenta); }
+  66% { outline-color: var(--gaming-color-3, cyan); }
+  100% { outline-color: var(--gaming-color-1, magenta); }
 }
 
+/* 下線などの装飾線の色 */
 .gaming-text-decoration-color {
   animation: gaming-text-decoration-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-text-decoration-color {
-  0% { text-decoration-color: var(--gaming-color-1, Magenta); }
+  0% { text-decoration-color: var(--gaming-color-1, magenta); }
   33% { text-decoration-color: var(--gaming-color-2, yellow); }
-  66% { text-decoration-color: var(--gaming-color-3, Cyan); }
-  100% { text-decoration-color: var(--gaming-color-1, Magenta); }
+  66% { text-decoration-color: var(--gaming-color-3, cyan); }
+  100% { text-decoration-color: var(--gaming-color-1, magenta); }
 }
 
+/* 線の色（行の開始側） */
 .gaming-border-inline-start-color {
   animation: gaming-border-inline-start-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-inline-start-color {
-  0% { border-inline-start-color: var(--gaming-color-1, Magenta); }
+  0% { border-inline-start-color: var(--gaming-color-1, magenta); }
   33% { border-inline-start-color: var(--gaming-color-2, yellow); }
-  66% { border-inline-start-color: var(--gaming-color-3, Cyan); }
-  100% { border-inline-start-color: var(--gaming-color-1, Magenta); }
+  66% { border-inline-start-color: var(--gaming-color-3, cyan); }
+  100% { border-inline-start-color: var(--gaming-color-1, magenta); }
 }
 
+/* 線の色（行の終了側） */
 .gaming-border-inline-end-color {
   animation: gaming-border-inline-end-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-inline-end-color {
-  0% { border-inline-end-color: var(--gaming-color-1, Magenta); }
+  0% { border-inline-end-color: var(--gaming-color-1, magenta); }
   33% { border-inline-end-color: var(--gaming-color-2, yellow); }
-  66% { border-inline-end-color: var(--gaming-color-3, Cyan); }
-  100% { border-inline-end-color: var(--gaming-color-1, Magenta); }
+  66% { border-inline-end-color: var(--gaming-color-3, cyan); }
+  100% { border-inline-end-color: var(--gaming-color-1, magenta); }
 }
 
+/* 線の色（ブロックの開始側） */
 .gaming-border-block-start-color {
   animation: gaming-border-block-start-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-block-start-color {
-  0% { border-block-start-color: var(--gaming-color-1, Magenta); }
+  0% { border-block-start-color: var(--gaming-color-1, magenta); }
   33% { border-block-start-color: var(--gaming-color-2, yellow); }
-  66% { border-block-start-color: var(--gaming-color-3, Cyan); }
-  100% { border-block-start-color: var(--gaming-color-1, Magenta); }
+  66% { border-block-start-color: var(--gaming-color-3, cyan); }
+  100% { border-block-start-color: var(--gaming-color-1, magenta); }
 }
 
+/* 線の色（ブロックの終了側） */
 .gaming-border-block-end-color {
   animation: gaming-border-block-end-color var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-border-block-end-color {
-  0% { border-block-end-color: var(--gaming-color-1, Magenta); }
+  0% { border-block-end-color: var(--gaming-color-1, magenta); }
   33% { border-block-end-color: var(--gaming-color-2, yellow); }
-  66% { border-block-end-color: var(--gaming-color-3, Cyan); }
-  100% { border-block-end-color: var(--gaming-color-1, Magenta); }
+  66% { border-block-end-color: var(--gaming-color-3, cyan); }
+  100% { border-block-end-color: var(--gaming-color-1, magenta); }
 }
 
-/*画像の色*/
+/* 画像の色（色相を回転） */
 .gaming-filter {
   animation: gaming-filter var(--gaming-duration, 5s) linear infinite;
 }
@@ -140,12 +150,13 @@
   100% { filter: hue-rotate(360deg); }
 }
 
+/* SVGの塗りの色 */
 .gaming-fill {
   animation: gaming-fill var(--gaming-duration, 5s) linear infinite;
 }
 @keyframes gaming-fill {
-  0% { fill: var(--gaming-color-1, Magenta); }
+  0% { fill: var(--gaming-color-1, magenta); }
   33% { fill: var(--gaming-color-2, yellow); }
-  66% { fill: var(--gaming-color-3, Cyan); }
-  100% { fill: var(--gaming-color-1, Magenta); }
+  66% { fill: var(--gaming-color-3, cyan); }
+  100% { fill: var(--gaming-color-1, magenta); }
 }
